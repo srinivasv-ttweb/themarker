@@ -1,0 +1,8 @@
+{"magazine_name":
+	{"required":true},
+"description":
+	{"type":"richtext","required":true,"hint":""},
+"pdf_link":
+	{"defaulttext":"Download PDF"},
+"date":
+	{"type":"date","required":true}}

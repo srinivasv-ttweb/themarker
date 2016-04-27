@@ -1,0 +1,16 @@
+{"title":
+	{"required":true},
+"url_friendly_name":
+	{"type":"url_slug"},
+"sub_title":
+	{},
+"banner_image":
+	{},
+"short_description":
+	{"required":true,"hint":""},
+"thumbnail_link":
+	{},
+"book_package_link":
+	{},
+"large_description":
+	{"type":"richtext"}}
