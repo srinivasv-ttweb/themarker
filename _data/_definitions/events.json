@@ -1,0 +1,18 @@
+{"title":
+	{"required":true},
+"seo_title":
+	{"required":true},
+"seo_description":
+	{"type":"text","required":true},
+"url_friendly_name":
+	{"type":"url_slug"},
+"start_date":
+	{"type":"date","required":true},
+"end_date":
+	{"type":"date"},
+"short_description":
+	{"required":true},
+"image":
+	{"type":"image"},
+"contents":
+	{"type":"richtext","required":true,"hint":"Write the detailed description"}}

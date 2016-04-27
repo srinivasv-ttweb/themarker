@@ -1,0 +1,113 @@
+{% if page.nav_category == 'our-hotel' %}
+  <li> 
+    {% assign this_url =  'our-hotel/about-the-marker' | permalink %}
+    <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">About The Marker</a> 
+  </li>
+  <li>
+    <a href="http://cdn.traveltripper.io/assets/9674/original/the_marker_website_map_2.pdf" target="_blank" >Resort Map Download</a> </li>
+  <li>
+    {% assign this_url =  'our-hotel/local-design' | permalink %}
+    <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">Local Design</a>
+  </li>
+  <!-- <li> <a href=\"#\">Local Attra ctions - Illustrated Interactive Map</a> </li>-->
+  <li>
+    {% assign this_url =  'news' | permalink %}
+    <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">Press Room</a>
+  </li>
+  <li>
+    {% assign this_url =  'our-hotel/faq' | permalink %}
+    <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">FAQ</a>
+  </li>
+{% endif %}
+{% if page.nav_category == 'amenities' %}
+<li>
+  {% assign this_url =  'services---amenities/view-all' | permalink %}
+  <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">View All</a>
+</li>
+<li>
+  {% assign this_url =  'services---amenities/pools' | permalink %}
+  <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">Pools</a>
+</li>
+<li>
+  {% assign this_url =  'services---amenities/fitness-center' | permalink %}
+  <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">Fitness Center</a>
+</li>
+<li>
+  {% assign this_url =  'services---amenities/parking' | permalink %}
+  <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">Parking</a>
+</li>
+<!-- 
+<li>
+  {% assign this_url =  'services---amenities/fact-sheet' | permalink %}
+  <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">Fact Sheet</a>
+</li>
+//-->
+{% endif %}
+{% if page.nav_category == 'experiences' %}
+<li>
+  {% assign this_url =  'experiences/the-marker-experience' | permalink %}
+  <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">The Marker Experience</a>
+</li>
+<li>
+  {% assign this_url =  'experiences/activities' | permalink %}
+  <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">Activities</a>
+</li>
+<li>
+  {% assign this_url =  'experiences/family' | permalink %}
+  <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">Family</a>
+</li>
+<li>
+  {% assign this_url =  'experiences/romance' | permalink %}
+  <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">Romance</a>
+</li>
+<li>
+  {% assign this_url =  'experiences/key-west-art-heritage' | permalink %}
+  <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">Key West Art Heritage</a>
+</li>
+{% endif %}
+{% if page.nav_category == 'gallery' %}
+<li>
+  {% assign this_url =  'gallery/view-all-images' | permalink %}
+  <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">View All Images</a>
+</li>
+<li>
+  {% assign this_url =  'gallery/key-west-webcam' | permalink %}
+  <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">Key West Webcam</a>
+</li>
+<li>
+  {% assign this_url =  'gallery/marker-resort-video' | permalink %}
+  <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">Marker Resort Video</a>
+</li>
+
+{% endif %}
+{% if page.nav_category == 'meetings' %}
+<li>
+  <a href="http://cdn.traveltripper.io/assets/8682/original/Marker_Conference_Room_Spec_Sheet.pdf"  target="_blank">Marker Meetings & Events Fact Sheet</a>
+</li>
+<li>
+  <a href="http://cdn.traveltripper.io/assets/8672/original/2015_Marker_Conference_Room_Menu.pdf"  target="_blank">Meetings & Events Menu</a>
+</li> 
+{% endif %}
+{% if page.nav_category == 'dining' %}
+<li>
+  {% assign this_url =  'drinks---dining/viewall' | permalink %}
+  <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">View All</a>
+</li>
+<li>
+  {% assign this_url =  'drinks---dining/cero-bodega' | permalink %}
+  <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">Cero Bodega</a>
+</li>
+<li>
+  {% assign this_url =  'drinks---dining/bar' | permalink %}
+  <a href="{{ this_url }}" class="{% if this_url == page.url %}active{% endif %}">Bar</a>
+</li>
+{% endif %}
+{% if page.nav_category == 'key-west' %}
+<li>
+  <a href="{{'key-west/local-attractions' | permalink }}" class="active">Local Attractions</a>
+</li>
+<!-- <li> <a href=\"#\">Area Guide - Interactive Illustrated Map</a> </li>-->
+<li>
+  <a href="{{'calendar' | permalink }}">Calendar of Events</a>
+</li>
+{% endif %}

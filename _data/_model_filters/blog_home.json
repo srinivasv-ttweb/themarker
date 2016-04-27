@@ -1,0 +1,5 @@
+{
+  "definition_names": ["blog"],
+   "sort": { "date": -1 },
+   "limit": 1
+}
