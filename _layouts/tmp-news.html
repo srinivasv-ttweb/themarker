@@ -19,7 +19,7 @@
         <h2>Read And See What The Press Has To Say About Us</h2>
         <p>Welcome to the The Marker Resort Press Room, where you can explore Key West hotel news, press releases and more. Keep visiting this page as we will update it frequently.</p>
         <div id="pressroom">
-       {% assign filtered_news = site.data._models.news | sort: 'date' %}
+       {% assign filtered_news = site.data._models.news | sort: 'date' | reverse %}
 {% for news_filter in filtered_news %} 
           <article class="col-md-4 col-sm-6">
             <div class=" pressroom-entry">
