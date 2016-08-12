@@ -1,5 +1,5 @@
 {"title":
 {"required":true},
   "chairs":{
-    "type": "integer","default_text": 2
+    "type": "integer"
   }}
