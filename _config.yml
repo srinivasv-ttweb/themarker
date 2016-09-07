@@ -15,3 +15,4 @@ page_gen:
   - data: 'blog'
     template: 'tmp-blog-more'
     dir: 'blog-details'
+
