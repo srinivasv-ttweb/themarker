@@ -1,6 +1,6 @@
 url: "http://www.westhousehotelnewyork.com"
 
-# Build settings
+# Build settings    
 default_lang: 'en'
 languages: ['en']
 
