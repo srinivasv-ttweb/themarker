@@ -68,3 +68,6 @@
 - source: test
 - source: test1
 - source: test3
+- source: test
+- source: test1
+- source: test3
