@@ -71,3 +71,6 @@
 - source: test
 - source: test1
 - source: test3
+- test: target1
+- test1: target2
+- test3: tareget3
