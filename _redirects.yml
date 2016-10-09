@@ -2,7 +2,7 @@
 - services/pools: pools
 - hotel: about-the-marker
 - hotel/local-design: local-design
-- hotel/faq: faq
+- hotel/faq: faQ
 - accommodations/marker-classic-rooms: the-marker-classic-rooms
 - services: view-all
 - services/fitness: fitness-center
