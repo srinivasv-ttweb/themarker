@@ -1,4 +1,5 @@
 ---
+- pty: pty
 - ppp: ppp
 - tr: tr
 - t: t
