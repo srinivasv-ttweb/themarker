@@ -1,2 +1,10 @@
 ---
 - a: a
+- bbb cc: bb
+- bbb cc/: bb
+- Bbb cc: bb
+- Bbb cc/: bb
+- Bbb_Cc: bb
+- Bbb_Cc/: bb
+- BBB_CC: bb
+- BBB_CC/: bb
