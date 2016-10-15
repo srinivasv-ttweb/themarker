@@ -37,3 +37,11 @@
 - Abc-abc/: abc
 - ABC-ABC: abc
 - ABC-ABC/: abc
+- abc_def: a
+- abc_def/: a
+- Abc_def: a
+- Abc_def/: a
+- Abc_def: a
+- Abc_def/: a
+- ABC_DEF: a
+- ABC_DEF/: a
