@@ -21,3 +21,11 @@
 - test3: tareget3
 - abc_def: abc
 - bbc_def: bbc
+- abc_def: avc
+- abc_def/: avc
+- Abc_def: avc
+- Abc_def/: avc
+- Abc_def: avc
+- Abc_def/: avc
+- ABC_DEF: avc
+- ABC_DEF/: avc
