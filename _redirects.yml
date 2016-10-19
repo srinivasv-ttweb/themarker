@@ -1,0 +1,9 @@
+---
+- abc-def: abc
+- abc-def/: abc
+- Abc-def: abc
+- Abc-def/: abc
+- Abc-Def: abc
+- Abc-Def/: abc
+- ABC-DEF: abc
+- ABC-DEF/: abc
