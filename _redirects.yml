@@ -1,3 +1,11 @@
 ---
 - abc-def: abc/
 - xyz-abc: xyz/
+- a: a
+- a/: a
+- A: a
+- A/: a
+- A: a
+- A/: a
+- A: a
+- A/: a
