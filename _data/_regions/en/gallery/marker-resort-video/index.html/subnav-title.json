@@ -1,1 +1,1 @@
-[{"_template":"html","content":"[\n\t{\n\t\t\"_template\": \"html\",\n\t\t\"content\": \"<p>Gallery</p>\",\n\t\t\"rendered_height\": 500\n\t}\n]"}]
+[{"_template":"html","content":"\"[\\n\\t{\\n\\t\\t\\\"_template\\\": \\\"html\\\",\\n\\t\\t\\\"content\\\": \\\"<p>[ { \\\\\\\"_template\\\\\\\": \\\\\\\"html\\\\\\\", \\\\\\\"content\\\\\\\": \\\\\\\"</p>\\\\n<p>Gallery</p>\\\\n<p>\\\\\\\", \\\\\\\"rendered_height\\\\\\\": 500 } ]</p>\\\",\\n\\t\\t\\\"rendered_height\\\": 500\\n\\t}\\n]\""}]
