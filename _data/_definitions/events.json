@@ -13,6 +13,6 @@
 "short_description":
 	{"required":true},
 "image":
-	{"type":"image"},
+	{"required":true,"type":"image"},
 "contents":
 	{"type":"richtext","required":true,"hint":"Write the detailed description"}}
