@@ -14,5 +14,8 @@
 	{"required":true},
 "image":
 	{"required":true,"type":"image"},
+ 
+"image1":
+	{"required":true,"type":"image"},
 "contents":
 	{"type":"richtext","hint":"Write the detailed description"}}
