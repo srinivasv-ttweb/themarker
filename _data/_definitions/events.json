@@ -15,4 +15,4 @@
 "image":
 	{"required":true,"type":"image"},
 "contents":
-	{"type":"richtext","required":true,"hint":"Write the detailed description"}}
+	{"type":"richtext","hint":"Write the detailed description"}}
