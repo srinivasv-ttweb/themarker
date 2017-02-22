@@ -16,6 +16,8 @@
 	{"required":true},
 "more_content":
 	{"type":"richtext"},
+ "more_content1":
+	{"type":"richtext"}
 "image":
 	{"type":"image"},
 "map":
