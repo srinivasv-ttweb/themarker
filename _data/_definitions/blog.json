@@ -18,5 +18,7 @@
 	{"type":"richtext"},
 "image":
 	{"type":"image"},
+ "more_contents":
+	{"type":"richtext"},
 "map":
 	{"type":"image"}}
